@@ -1,0 +1,39 @@
+{
+  "tests": [
+    {
+      "name": "Part 1.1: ProductTest",
+      "run": "./gradlew test --tests ProductTest --console=plain",
+      "points": 10
+    },
+    {
+      "name": "Part 1.2: VehicleTest",
+      "run": "./gradlew test --tests VehicleTest",
+      "points": 10
+    },
+    {
+      "name": "Part 2: WebShopTest",
+      "run": "./gradlew test --tests WebShopTest",
+      "points": 20
+    },
+    {
+      "name": "Part 3: CountryTest",
+      "run": "./gradlew test --tests CountryTest",
+      "points": 20
+    },
+    {
+      "name": "Part 4.1: MarkdownExportTest (pizza)",
+      "run": "./gradlew test --tests MarkdownExportTest",
+      "points": 10
+    },
+    {
+      "name": "Part 4.2: ProductMarkdownTest (product)",
+      "run": "./gradlew test --tests ProductMarkdownTest",
+      "points": 10
+    },
+    {
+      "name": "Part 5: dependency injection",
+      "run": "bash .grading/tests/di.sh",
+      "points": 20
+    }
+  ]
+}
