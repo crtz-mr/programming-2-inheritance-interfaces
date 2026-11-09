@@ -32,6 +32,9 @@ public class Main {
          * argument. Run this code and see the output.
          */
         Application app = new Application(System.out);
+
+        PrinterWithTimestamp printer = new PrinterWithTimestamp();
+        app = new Application(printer);
         app.run();
 
         /*
